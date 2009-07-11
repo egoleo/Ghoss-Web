@@ -5,7 +5,9 @@
 
 /*** Layout Starts ***/
 body {
-  	min-width: 550px;      /* 2x LC width + RC width */
+	font-family: Tahoma, Verdana, sans-serif, Helvetica;
+  	color : #CCC;
+	min-width: 550px;      /* 2x LC width + RC width */
 	background : #CCCCCC;
 }
 
@@ -43,8 +45,37 @@ body {
 }
 
 #content_wrapper {
+	font-size: 14px;
+	color : #333333;
 	padding-left: 10px;	/* LC width */
 	padding-right:10px; /* RC width */
+	
+}
+
+#content_wrapper  h1{
+	font-size: 18px;
+	color: #333;
+	border-bottom: 1px dashed #CCC;
+	font-weight: normal;
+}
+	
+#content_wrapper  h2{
+	font-size: 14px;
+	color: #333;
+	font-weight: normal;
+		
+}
+
+#content_wrapper  a:link, #content_wrapper  a:visited {
+	color: #007CDE;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#content_wrapper  a:hover {
+	color: #007CDE;
+	text-decoration: underline;
+	font-weight: bold;
 }
 
 #left {
@@ -84,7 +115,7 @@ body {
 	font-family: Tahoma, Verdana, Arial;
 	color: #FFF;
 	font-size: 50px;
-	padding-top: 35px;
+	padding-top: 10px;
 	padding-left: 50px;
 	font-weight: bold;
 	width: 150px;	
@@ -131,7 +162,7 @@ body {
 	padding: 0 0 0 10px; 
 }
 
-#right_side_bar a:link, #LeftSideBar a:visited {
+#right_side_bar a:link, #right_side_bar a:visited {
 	color: #FFF;
 	text-decoration: underline;
 	font-weight: normal;
